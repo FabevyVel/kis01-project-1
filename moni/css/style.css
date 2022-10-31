@@ -17,12 +17,14 @@
 	width:160px;
 	height:55px;
 	background-color:white;
+	text-align:center;
 }
 .header .header-fc .detail
 {
 	width:450px;
 	height:55px;
 	background-color:white;
+	text-align:center;
 }
 .present .wrapper
 {
@@ -47,6 +49,7 @@
 	width:100%;
 	background-color:white;
 	margin-top:60px;
+	text-align:center;
 }
 .present .present-fc .boxb
 {
@@ -54,6 +57,7 @@
 	width:150px;
 	background-color:white;
 	margin-top:30px;
+	text-align:center;
 }
 .present .present-fc .boxc
 {
@@ -61,6 +65,7 @@
 	width:150px;
 	background-color:white;
 	margin-top:30px;
+	text-align:center;
 }
 .feature
 {
@@ -84,6 +89,7 @@
 	height:300px;
 	background-color:lightblue;
 	margin-top:50px;
+	text-align:center;
 }
 .feature .feature-fc .boxb
 {
@@ -91,6 +97,7 @@
 	height:300px;
 	background-color:lightblue;
 	margin-top:50px;
+	text-align:center;
 }
 .feature .feature-fc .boxc
 {
@@ -98,6 +105,7 @@
 	height:300px;
 	background-color:lightblue;
 	margin-top:50px;
+	text-align:center;
 }
 .pay .wrapper
 {
@@ -122,6 +130,7 @@
 	width:100%;
 	background-color:white;
 	margin-top:40px;
+	text-align:center;
 }
 .pay .pay-fc .boxb
 {
@@ -129,13 +138,17 @@
 	width:350px;
 	background-color:white;
 	margin-top:40px;
+	
+	display:flex;
+	justify-content:center;
 }
 .pay .pay-fc .boxb .box-a
 {
 	height:50px;
-	width:100%;
+	width:50%;
 	background-color:grey;
 	margin-top:350px;
+	text-align:center;
 	
 }
 .pay .pay-fc .boxc
@@ -144,13 +157,17 @@
 	width:350px;
 	background-color:white;
 	margin-top:40px;
+	
+	display:flex;
+	justify-content:center;
 }
 .pay .pay-fc .boxc .box-b
 {
 	height:50px;
-	width:100%;
+	width:50%;
 	background-color:grey;
 	margin-top:350px;
+	text-align:center;
 }
 .pay .pay-fc .boxd
 {
@@ -158,13 +175,17 @@
 	width:350px;
 	background-color:white;
 	margin-top:40px;
+	
+	display:flex;
+	justify-content:center;
 }
 .pay .pay-fc .boxd .box-c
 {
 	height:50px;
-	width:100%;
+	width:50%;
 	background-color:grey;
 	margin-top:350px;
+	text-align:center;
 }
 .test
 {
@@ -189,6 +210,7 @@
 	height:220px;
 	background-color:lightblue;
 	margin-top:40px;
+	text-align:center;
 }
 .test .test-fc .boxb
 {
@@ -196,6 +218,7 @@
 	height:150px;
 	background-color:red;
     margin-top:40px;
+	text-align:center;
 }
 .test .test-fc .boxc 
 {
@@ -203,6 +226,7 @@
 	height:150px;
 	background-color:red;
 	margin-top:40px;
+	text-align:center;
 }
 .details
 {
@@ -229,6 +253,7 @@
 	width:100%;;
 	background-color:white;
 	margin-top:40px;
+	text-align:center;
 }
 .details .details-fc .boxb
 {
@@ -236,6 +261,7 @@
 	width:600px;
 	background-color:white;
 	margin-top:40px;
+	text-align:center;
 }
 .details .details-fc .boxc
 {
@@ -243,6 +269,7 @@
 	width:600px;
 	background-color:white;
 	margin-top:40px;
+	text-align:center;
 }
 .details .details-fc .boxd
 {
@@ -250,6 +277,7 @@
 	width:600px;
 	background-color:white;
 	margin-top:40px;
+	text-align:center;
 }
 .details .details-fc .boxe
 {
@@ -257,6 +285,7 @@
 	width:600px;;
 	background-color:white;
 	margin-top:40px;
+	text-align:center;
 }
 .details .details-fc .boxf
 {
@@ -264,6 +293,7 @@
 	width:600px;
 	background-color:white;
 	margin-top:40px;
+	text-align:center;
 }
 .website
 {
@@ -281,4 +311,5 @@ height:120px;
 	height:90px;
 	background-color:white;
 	margin-top:15px;
+	text-align:center;
 }
