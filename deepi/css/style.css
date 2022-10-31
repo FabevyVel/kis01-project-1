@@ -104,7 +104,7 @@ width:80%;
 {
 	background-color:white;
 	height:40px;
-	width:315px;
+	width:20%;
 	margin-top:10px;
 	
 }
@@ -112,7 +112,7 @@ width:80%;
 {
 	background-color:white;
 	height:40px;
-	width:135px;
+	width:35%;
 		margin-top:10px;
 }
 
@@ -131,7 +131,7 @@ width:80%;
 {
 	background-color:pink;
 	height:50px;
-	width:120px;
+	width:20%;
 	margin-top:10px;
 	
 }
@@ -139,7 +139,7 @@ width:80%;
 {
 	background-color:pink;
 	height:50px;
-	width:700px;
+	width:40%;
 	margin-top:10px;
 }
 
@@ -159,15 +159,15 @@ display:flex;
 {
 	background-color:white;
 	height:211px;
-	width:680px;
-	margin-top:200px;
+	width:60%;
+	margin-top:100px;
 }
 
 .logo .logo-fc .logotext
 {
 	background-color:white;
 	height:43px;
-	width:147px;
+	width:20%;
 	margin-top:100px;
 }
 .logobox
@@ -185,24 +185,24 @@ display:flex;
 {
 	background-color:pink;
 	height:209px;
-	width:300px;
+	width:22%;
 }
 .logobox .logobox-fc .lb
 {
 	height:209px;
-	width:300px;
+		width:22%;
 		background-color:pink;
 }
 .logobox .logobox-fc .lc
 {
 	height:209px;
-	width:300px;
+		width:22%;
 		background-color:pink;
 }
 .logobox .logobox-fc .ld
 {
 	height:209px;
-	width:300px;
+		width:22%;
 		background-color:pink;
 }
 .about
@@ -221,14 +221,14 @@ display:flex;
 {
 	background-color:white;
 	height:342px;
-	width:600px;
+	width:46%;
 	margin-top:30px;
 }
 .about .about-fc .abboxb
 {
 	background-color:white;
 	height:342px;
-	width:600px;
+	width:46%;
 	margin-top:30px;
 }
 	
@@ -247,35 +247,35 @@ display:flex;
 {
 	background-color:pink;
 	height:68px;
-	width:100px;
+	width:18%;
 	margin-top:20px;
 }
 .company .company-fc .cbb
 {
 	background-color:pink;
 	height:68px;
-	width:100px;
+	width:18%;
 	margin-top:20px
 }
 .company .company-fc .cbc
 {
 	background-color:pink;
 	height:68px;
-	width:100px;
+	width:18%;
 	margin-top:20px
 }
 .company .company-fc .cbd
 {
 	background-color:pink;
 	height:68px;
-	width:100px;
+	width:18%;
 	margin-top:20px
 }
 .company .company-fc .cbe
 {
 	background-color:pink;
 	height:68px;
-	width:100px;
+	width:18%;
 	margin-top:20px
 }
 
@@ -294,7 +294,7 @@ display:flex;
 .paritur .paritur-fc .pbox
 {
 	background-color:pink;
-	width:550px;
+	width:46%;
 	height:516px;
 	margin-top:10px;
 }
@@ -302,6 +302,7 @@ display:flex;
 {
 	text-align:center;
     margin-top:10px;
+	width:46%;
 }        
 
 
@@ -332,52 +333,52 @@ width:100%
 {
 	background-color:yellow;
 	height:100px;
-	width:550px;
-	margin-top:50px;
+	width:45%;
+	margin-top:15px;
 
 }
 .service .service-fc .tempb
 {
 	background-color:yellow;
 	height:100px;
-	width:550px;
-	margin-top:50px;
+	width:45%;
+	margin-top:15px;
 
 }
 .service .service-fc .tempc
 {
 	background-color:yellow;
 	height:100px;
-	width:550px;
-		margin-top:10px;
+		width:45%;
+	margin-top:15px;
 }
 .service .service-fc .tempd
 {
 	background-color:yellow;
 	height:100px;
-	width:550px;
-		margin-top:10px;
+		width:45%;
+	margin-top:15px;
 }
 .service .service-fc .tempd
 {
 	background-color:yellow;
 	height:100px;
-	width:550px;
-		margin-top:10px;
+		width:45%;
+	margin-top:15px;
 }
 .service .service-fc .tempe
 {
 	background-color:yellow;
 	height:100px;
-	width:550px;
-		margin-top:10px;
+		width:45%;
+	margin-top:15px;
 }
 .service .service-fc .tempf
 {
 	background-color:yellow;
 	height:100px;
-		width:550px;
-		margin-top:10px;
+		width:45%;
+	margin-top:15px;
 }
 .calltoaction 
 {
@@ -401,7 +402,7 @@ margin-top:150px;
 {
 	background:white;
 	height:77px;
-	width:216px;
+	width:30%px;
 	margin-top:150px;
 }
 
@@ -427,21 +428,21 @@ margin-top:150px;
 {
 	background-color:lightblue;
 	height:309px;
-		width:400px;
+		width:31%;
 			margin-top:30px;
 }
 .portfolio .portfolio-fc .portb
 {
 background-color:lightblue;
 	height:309px;
-		width:400px;
+		width:31%;
 			margin-top:30px;
 }
 .portfolio .portfolio-fc .portc
 {
 	background-color:lightblue;
 	height:309px;
-		width:400px;
+		width:31%;
 			margin-top:30px;
 }
 .portfolio .portfolio-fc .portd
@@ -449,50 +450,50 @@ background-color:lightblue;
 {
 	background-color:lightblue;
 	height:309px;
-		width:400px;
-		margin-top:10px;
+		width:31%;
+			margin-top:30px;
 }
 .portfolio .portfolio-fc .porte
 {
 	background-color:lightblue;
 	height:309px;
-		width:400px;
-		margin-top:10px;
+		width:31%;
+			margin-top:30px;
 }
 .portfolio .portfolio-fc .portf
 {
 	background-color:lightblue;
 	height:309px;
-		width:400px;
-		margin-top:10px;
+	width:31%;
+			margin-top:30px;
 }
 .portfolio .portfolio-fc .portg
 
 {
 	background-color:lightblue;
 	height:309px;
-		width:400px;
-		margin-top:10px;
+		width:31%;
+			margin-top:30px;
 }
 .portfolio .portfolio-fc .porth
 {
 	background-color:lightblue;
 	height:309px;
-		width:400px;
-		margin-top:10px;
+		width:31%;
+			margin-top:30px;
 }
 .portfolio .portfolio-fc .porti
 {
 	background-color:lightblue;
 	height:309px;
-		width:400px;
-		margin-top:10px;
+		width:31%;
+			margin-top:30px;
 }
 
 .team
 {
 	background-color:lightgreen;
-	height:767px;
+	height:1000px;
 }
 .team .team-fc
 {
@@ -512,35 +513,35 @@ background-color:lightblue;
 {
 	background-color:blue;
 	height:232px;
-		width:500px;
-		margin-top:40px;
+		width:46%;
+		margin-top:30px;
 }
 .team .team-fc .teamb
 {
 background-color:blue;
 	height:232px;
-		width:500px;
-	margin-top:40px;
+		width:46%;
+		margin-top:30px;
 }
 .team .team-fc .teamc
 {
 background-color:blue;
 	height:232px;
-		width:500px;
-	margin-top:40px;
+		width:46%;
+		margin-top:30px;
 }
 .team .team-fc .teamd
 {
 	background-color:blue;
 	height:232px;
-		width:500px;
-	margin-top:40px;
+		width:46%;
+		margin-top:30px;
 }
 
 .pricing 
 {
 	background-color:lightblue;
-	height:700px;
+	height:710px;
 }
 .pricing  .pricing-fc
 {
@@ -566,7 +567,7 @@ background-color:blue;
 {
 	background:gray;
 	height:419px;
-	width:218px;
+	width:22%;
 		margin-top:40px;
 
 }
@@ -574,7 +575,7 @@ background-color:blue;
 {
 	background-color:pink;
 	width:100%;
-	margin-top:170%;
+	margin-top:90%;
 	
 }
 
@@ -582,28 +583,28 @@ background-color:blue;
 {
 background:gray;
 	height:419px;
-	width:218px;
+	width:22%;
 		margin-top:40px;
 }
 .pricing  .pricing-fc .blogb .blogbuta
 {
 	background-color:pink;
 	width:100%;
-	margin-top:170%;
+	margin-top:90%;
 }
 
 .pricing  .pricing-fc .blogc
 {
 background:gray;
 	height:419px;
-width:218px;
+	width:22%;
 		margin-top:40px;
 }
 .pricing  .pricing-fc .blogc .blogbutb
 {
 	background-color:pink;
 	width:100%;
-	margin-top:170%;
+	margin-top:90%;
 }
 
 
@@ -611,14 +612,14 @@ width:218px;
 {
 	background:gray;
 	height:419px;
-	width:218px;
+		width:22%;
 		margin-top:40px;
 }
 .pricing  .pricing-fc .blogd .blogbutc
 {
 	background-color:pink;
 	width:100%;
-	margin-top:170%;
+	margin-top:90%;
 }
 
 .questions
@@ -643,36 +644,36 @@ width:218px;
 {
 	background:lightblue;
 	height:117px;
-	width:800px;
-		margin-top:40px;
+	width:80%;
+		margin-top:30px;
 }
 .questions .questions-fc .quea
 {
 	background:lightblue;
 	height:70px;
-	width:800px;
-		margin-top:40px;
+	width:80%;
+		margin-top:30px;
 }
 .questions .questions-fc .queb
 {
 	background:lightblue;
 	height:70px;
-	width:800px;
-		margin-top:40px;
+width:80%;
+		margin-top:30px;
 }
 .questions .questions-fc .quec
 {
 	background:lightblue;
 	height:70px;
-	width:800px;
-		margin-top:40px;
+width:80%;
+		margin-top:30px;
 }
 .questions .questions-fc .qued
 {
 	background:lightblue;
 	height:70px;
-	width:800px;
-		margin-top:40px;
+	width:80%;
+		margin-top:30px;
 		
 		
 }
@@ -693,52 +694,50 @@ width:218px;
 {
 		text-align:center;
 	width:100%;
-	margin-top:50px;
+	margin-top:25px;
 }
 .contactus .contactus-fc .cona
 {
 	text-align:center;
 	margin-top:2px;
 	width:40%;
-		margin-top:100px;
+		margin-top:50px;
 }
 .contactus .contactus-fc .conb
 {
 	background:lightblue;
 	height:50px;
-	width:700px;
-		margin-top:100px;
+		width:40%;
+		margin-top:50px;
 		
 }
 .contactus .contactus-fc .conc
 {
 		text-align:center;
 	margin-top:2px;
-	width:40%;
-	margin-top:10px;
+		width:40%;
+		margin-top:50px;
 }
 .contactus .contactus-fc .cond
 {
 	background:lightblue;
 	height:50px;
-	width:700px;
-margin-top:10px;
-		
+	width:40%;
+		margin-top:50px;
 }
 .contactus .contactus-fc .cone
 {
 		text-align:center;
 	margin-top:2px;
 	width:40%;
-margin-top:10px;;
+		margin-top:50px;
 }
 .contactus .contactus-fc .conf
 {
 	background:lightblue;
 	height:50px;
-	width:700px;
-	margin-top:10px;
-		
+	width:40%;
+		margin-top:50px;
 }
 
 
@@ -764,7 +763,7 @@ margin-top:10px;;
 {
 	background:pink;
 	height:50px;
-	width:631px;
+	width:40%;
 		margin-top:60px;
 }
 
@@ -784,28 +783,28 @@ margin-top:10px;;
 {
 		background-color:yellow;
 	height:241px;
-		width:251px;
+		width:22%;
 		margin-top:20px;
 }
 .detail .detail-fc .detb
 {
 	background-color:yellow;
 	height:241px;
-		width:251px;
+			width:22%;
 		margin-top:20px;
 }
 .detail .detail-fc .detc
 {
 	background-color:yellow;
 	height:241px;
-		width:251px;
+			width:22%;
 		margin-top:20px;
 }
 .detail .detail-fc .detd
 {
 	background-color:yellow;
 	height:241px;
-		width:251px;
+			width:22%;
 		margin-top:20px;
 }
 .website
@@ -821,7 +820,7 @@ margin-top:10px;;
 .website .website-fc .copyright
 {
 	background-color:white;
-	width:206px;
+	width:20;
 	height:35px;
 	margin-top:20px;
 }
