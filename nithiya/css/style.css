@@ -4,15 +4,21 @@
     margin:auto;	
  }
  
-   .banner .wrapper
+  .banner .wrapper
  {
-	width:70%;
+	width:80%;
     margin:auto;	
  }
  .information .wrapper
  {
 	 width:100%;
 	 margin:auto;	
+ }
+ .header
+ {
+	 background-color:black;
+	 width:100%;
+	 height:56px;
  }
  .header .header-fc
  {
@@ -21,103 +27,107 @@
  }
  .header .header-fc .home
  {
+	 text-align:center;
 	 background-color:yellow;
 	 height:56px;
-	 width:700px;
+	 width:50%;
  }
 
  .header .header-fc .navi
  {
+	 text-align:center;
 	 background-color:pink;
 	 height:56px;
-	 width:700px;
+	 width:50%;
+ }
+ .banner 
+ {
+	 width:100%;
+	 height:500px;
  }
  .banner .banner-fc
  {
 	 display:flex;
 	 flex-wrap:wrap;
 	 justify-content:space-between;
-	 background-color:white;
-	 height:512px;
-	 width:1000px;
-	 margin-top:10px;
  }
  .banner .banner-fc .boxa
  {
+	 text-align:center;
 	 background-color:yellow;
 	 height:400px;
-	 width:500px;
+	 width:45%;
 	 margin-top:60px;
  }
  .banner .banner-fc .boxb
  {
+	 text-align:center;
 	 background-color:green;
 	 height:400px;
-	 width:500px;
+	 width:45%;
 	 margin-top:60px;
  }
   .banner .banner-fc .call
   {
-	  width:100px;
+	  text-align:center;
+	  width:70%;
 	  height:30px;
+	  margin:auto;
 	  margin-top:300px;
-	  margin-left:30px;
 	  background-color:plum;
   }
- .banner .banner-fc .tagline
+ .tagline
  {
-	 background-color:blue;
-	 height:104px;
-	 width:1400px;
-	 margin-bottom:300px;
-	 margin-top:50px;
+	 text-align:center;
+	 margin:auto;
+	 width:80%;
+	 background-color:#009688;
+	 height:80px;
+	 margin-top:30px;
+ }
+ .information
+ {
+	 width:100%;
+	 height:350px;
  }
  .information .information-fc
  {
 	 display:flex;
 	 justify-content:space-evenly;
-	 background-color:gray;
-	 height:401px;
-	 width:1360px;
-	 flex-direction:row;
-	 margin-top:150px;
  }
  .information .information-fc .card-a
  {
-	 background-color:yellow;
-	 height:250px;
-	 width:372px;
-	 margin-top:100px;
- }
- .information .information .boxa
- {
- width:100px;
-	  height:30px;
-	  margin-top:300px;
-	  margin-left:30px;
-	  background-color:plum;
+	 margin-top:50px;
+	 text-align:center;
+	 width:350px;
+	 height:263px;
+	 background-color:crimson;
  }
  .information .information-fc .card-b
  {
-	 background-color:green;
-	 height:250px;
-	 width:372px;
-	 margin-top:100px;
+	 margin-top:50px;
+	 text-align:center;
+	 width:350px;
+	 height:263px;
+	 background-color:crimson;
  }
  .information .information-fc .card-c
  {
-	 background-color:yellow;
-	 height:250px;
-	 width:372px;
-	 margin-top:100px;
+	 margin-top:50px;
+	 text-align:center;
+	 width:350px;
+	 height:263px;
+	 background-color:crimson;
  }
  .copyright
- { 
-     width:1504px;
-     height:120px;	
-     background-color:black;
-	 margin-top:50px;
- }	 
+ {
+	 width:100%;
+	 background-color:#009688;
+	 height:80px;
+	 text-align:center;
+ }
+ 
+	 
 	 
 	 
 	 
