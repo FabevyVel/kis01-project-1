@@ -1,50 +1,60 @@
 .front
 {
 	display:flex;
-	/*border:2px solid black;*/
 	flex-direction:column;
-	margin:50px;
-	background-color:black;
-	
+	margin:250px;
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color:black;	
 }
 .front .header
 {
 	display:flex;
 	flex-direction:row;
-	margin:50px;
-	justify-content:center;
-	margin-top:5px;
+	justify-content:space-between;
 }
-
-.front .header .start
+.front .header .begin
 {
-	height:25px;
-	width:50px;
-	background-color:purple;
-	margin-right:300px;
-	
+	display:flex;
+	height:30px;
 }
-.front .header .text
+.front .header .begin .text
+{
+	height:15px;
+	width:30px;
+	background-color:white;
+	margin:10px;
+}
+.front .header .center
+{
+	display:flex;
+	height:30px;
+}
+.front .header .center .text
 {
 	height:15px;
 	width:30px;
 	background-color:yellow;
-	margin:15px;
-	
+	margin:10px;
 }
-.front .header .end
+.front .header .last
 {
-	height:25px;
-	width:50px;
-	background-color:purple;
-	margin-left:300px;
-	margin-top:5px;
-	
+	display:flex;
+	height:30px;
+	margin:0px;
+}
+.front .header .last .text
+{
+	height:15px;
+	width:30px;
+	background-color:white;
+	margin:10px;
 }
 .front .head
 {
 	display:flex;
 	justify-content:center;
+	margin:15px;
 }
 .front .head .text
 {
@@ -68,15 +78,16 @@
 .intro
 {
 	display:flex;
-	/*border:2px solid black;*/
-	margin:50px;
+	margin:250px;
+	margin-top:5px;
+	margin-bottom:5px;
 	flex-direction:column;
 }
 .intro .content
 {
 	display:flex;
 	flex-direction:row;
-	justify-content:space-evenly;
+	justify-content:space-between;
 	
 }
 .intro .content .text
@@ -89,61 +100,58 @@
 {
 	display:flex;
 	flex-direction:row;
-	justify-content:space-evenly;
+	justify-content:space-between;
 }
 .intro .footer .text
 {
 	height:20px;
 	width:40px;
 	background-color:pink;
-	margin:5px;
-	margin-top:40px;
-	
+	margin:20px;
+	margin-top:40px;	
 }
 .about
 {
 	display:flex;
-	/*border:2px solid black;*/
-	margin:50px;
+	margin:250px;
+	margin-top:5px;
+	margin-bottom:5px;
 	flex-direction:row;
-	justify-content:space-between;
 }
 .about .slide1
 {
 	display:flex;
-	flex-direction:row;	
 }
 .about .slide1 .text
 {
-	height:200px;
-	width:500px;
+	height:250px;
+	width:350px;
 	background-color:blue;
-	margin:20px;
+	margin:10px;
 }
 .about .slide2
 {
 	display:flex;
 	flex-direction:column;
 }
-
 .about .slide2 .text
 {
-	height:20px;
-	width:500px;
+	height:30px;
+	width:450px;
 	background-color:pink;
 	margin:20px;
 }
 .services
 {
 	display:flex;
-	/*border:2px solid black;*/
 	flex-direction:column;
-	margin:50px;
+	margin:250px;
+	margin-top:5px;
+	margin-bottom:5px;
 }
 .services .split1
 {
 	display:flex;
-	flex-direction:column;
 }
 .services .split1 .text
 {
@@ -162,24 +170,23 @@
 }
 .services .split .text
 {
-	height:200px;
-	width:400px;
+	height:150px;
+	width:250px;
 	background-color:pink;
 	margin:5px;
 }
 .action
 {
 	display:flex;
-	/*border:2px solid black;*/
-	margin:50px;
+	margin:250px;
+	margin-top:5px;
+	margin-bottom:5px;
 	flex-direction:column;
-	justify-content:center;
 	background-color:black;
 }
 .action .split1
 {
 	display:flex;
-	justify-content:center;
 	flex-direction:column;	
 }
 .action .split1 .text
@@ -187,8 +194,9 @@
 	height:50px;
 	width:300px;
 	background-color:white;
-	margin:5px;
-	margin-left:470px;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
 }
 .action .split2
 {
@@ -204,8 +212,9 @@
 }
 .portfolio
 {
-	margin:50px;
-	/*border:2px solid black;*/
+	margin:250px;
+	margin-top:5px;
+	margin-bottom:5px;
 	display:flex;
 	flex-direction:column;
 	
@@ -220,6 +229,7 @@
 	background-color:grey;
 	height:20px;
 	width:40px;
+	margin:10px;
 }
 .portfolio .split3
 {
@@ -232,7 +242,7 @@
 	background-color:pink;
 	height:25px;
 	width:50px;
-	margin:30px;
+	margin:10px;
 }
 .portfolio .split2
 {
@@ -244,14 +254,15 @@
 .portfolio .split2 .text
 {
 	background-color:yellow;
-	height:180px;
-	width:360px;
-	margin:3px;	
+	height:150px;
+	width:250px;
+	margin:5px;	
 }
 .activities
 {
-	margin:50px;
-	/*border:2px solid black;*/
+	margin:250px;
+	margin-top:5px;
+	margin-bottom:5px;
 	display:flex;
 	flex-direction:row;
 }
@@ -262,9 +273,9 @@
 .activities .split1 .text
 {
 	height:300px;
-	width:400px;
+	width:300px;
 	background-color:yellow;
-	margin:50px;
+	margin:10px;
 }
 .activities .split2
 {
@@ -275,15 +286,15 @@
 {
 	display:flex;
 	flex-direction:column;
-	justify-content:center;
 }
 .activities .split2 .split21 .text
 {
 	height:20px;
 	width:200px;
 	background-color:yellow;
-	margin:5px;
-	margin-left:180px;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
 }
 .activities .split2 .split22
 {
@@ -293,39 +304,65 @@
 }
 .activities .split2 .split22 .text
 {
-	height:125px;
-	width:250px;
+	height:100px;
+	width:230px;
 	background-color:blue;
-	margin:10px;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
 }
 .end
 {
 	display:flex;
-	margin:50px;
-	/*border:2px solid black;*/
+	margin:250px;
+	margin-top:5px;
+	margin-bottom:5px;
 	flex-direction:column;
 	justify-content:center;
 	background-color:black;
 }
+.end .pic
+{
+	height:50px;
+	width:50px;
+	background-color:white;
+	border-radius:100%;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+}
 .end .text
 {
 	height:30px;
-	width:100px;
+	width:60px;
 	background-color:white;
-	margin:10px;
-	margin-left:550px;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.end .content
+{
+	height:50px;
+	width:300px;
+	background-color:white;
+	margin:0px auto;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .members
 {
 	display:flex;
-	/*border:2px solid black;*/
 	flex-direction:column;
-	margin:50px;
+	margin:250px;
+	margin-top:5px;
+	margin-bottom:5px;
 }
 .members .split1
 {
 	display:flex;
 	flex-direction:column;
+	margin:10px;
 }
 .members .split1 .text
 {
@@ -344,14 +381,15 @@
 .members .split .text
 {
 	height:150px;
-	width:300px;
+	width:200px;
 	background-color:pink;
 	margin:5px;
 }
 .contact
 {
-	margin:50px;
-	/*border:2px solid black;*/
+	margin:250px;
+	margin-top:5px;
+	margin-bottom:5px;
 	display:flex;
 	flex-direction:column;
 }
@@ -359,14 +397,22 @@
 {
 	display:flex;
 	flex-direction:column;
-	justify-content:center;
+}
+.contact .box .dark
+{
+	height:20px;
+	width:80px;
+	background-color:gray;
+	margin:10px;
 }
 .contact .box .text
 {
 	height:150px;
 	width:500px;
 	background-color:brown;
-	margin-left:350px;
+	margin:0px auto;
+	margin-bottom:10px;
+	margin-top:10px;
 }
 .contact .split
 {
@@ -384,7 +430,9 @@
 	height:20px;
 	width:50px;
 	background-color:blue;
-	margin:10px;
+	margin:0px auto;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .contact .split2
 {
@@ -395,7 +443,7 @@
 {
 	display:flex;
 	flex-direction:row;
-	
+	justify-content:space-between;
 }
 .contact .split2 .split21 .text
 {
@@ -414,12 +462,14 @@
 	height:20px;
 	width:150px;
 	background-color:blue;
-	margin:10px;
+	margin:0px auto;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .contact .split2 .split23
 {
 	display:flex;
-	flex-direction:column;
+	justify-content:center;
 }
 .contact .split2 .split23 .text
 {
@@ -427,31 +477,33 @@
 	width:50px;
 	background-color:pink;
 	margin:10px;
-	margin-left:50px;	
 }
 .last 
 {
 	display:flex;
-	/*border:2px solid black;*/
 	flex-direction:column;
-	margin:50px;	
+	margin:250px;	
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .last .split1
 {
 	display:flex;
 	flex-direction:row;
 	background-color:black;
+	justify-content:space-between;
 }
 .last .split1 .split11
 {
 	display:flex;
 	flex-direction:row;
-	margin:20px;
+	margin:10px;
+	justify-content:center;
 }
 .last .split1 .split11 .text
 {
 	height:100px;
-	width:200px;
+	width:100px;
 	background-color:white;
 	margin:10px;
 }
@@ -466,11 +518,13 @@
 }
 .last .split1 .split12 .split121 .text
 {
-	width:300px;
+	width:200px;
 	height:30px;
 	background-color:white;
-	margin:10px;
-	margin-left:100px;
+	margin:0px auto;
+	margin-right:10px;
+	margin-top:30px;
+	margin-bottom:10px;
 }
 .last .split1 .split12 .split122
 {
@@ -482,15 +536,20 @@
 	width:70px;
 	height:20px;
 	background-color:white;
-	margin-top:50px;
-	margin-left:190px;
+	margin:0px auto;
+	margin-right:0px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .last .split1 .split12 .split122 .button
 {
 	width:50px;
 	height:20px;
 	background-color:purple;
-	margin-top:50px;
+	margin:0px auto;
+	margin-left:0px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .last .split2
 {
