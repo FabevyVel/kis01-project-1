@@ -173,43 +173,45 @@
   .project
  {
 	 background-color:cyan;
-	  height:900px;
+	  height:660px;
  }
   .project .project-fc
   {
 	 display:flex;
 	 flex-wrap:wrap;
-	 justify-content:center; 
+	justify-content:center;
+
  }
  
  .project .project-fc .stationary
  {
-	 margin-top:140px;
+	 margin-top:20px;
 	 background-color:gray;
-     width:500px;
+     width:45%;
      height:310px;
 	 
  }
   .project .project-fc .icecream
  {
-	 	 margin-top:140px;
+	 	  margin-top:20px;
 	 background-color:lightgray;
-     width:500px;
+     width:45%;
      height:310px;
  }
   .project .project-fc .strawberries
  { 
 	 
 	 background-color:lightsalmon;
-     width:500px;
+      width:45%;
      height:310px;
+	 
 	
  }
   .project .project-fc .workspace
  {
 
 	 background-color:lightblue;
-     width:500px;
+    width:45%;
      height:310px;
 	
  }
